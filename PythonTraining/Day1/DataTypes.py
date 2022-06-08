@@ -15,3 +15,4 @@ print(type(y)) # this should print float class
 print(type(s)) # this should print string class
 print(type(c)) # this should print string class
 print(type(b)) # this should print boolean class
+
