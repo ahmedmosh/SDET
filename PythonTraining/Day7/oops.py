@@ -111,3 +111,36 @@ class MyClass6:
 obj3 = MyClass6()  # invokes constructors automatically
 obj3.m1()  # methods are called explicitly using the object
 
+# Example 8 :
+
+
+class MyClass7:
+    name = "john"
+
+    def __init__(self, name):  # constructors can take arguments also
+        print(name)
+        print(self.name)
+
+
+mo = MyClass7(5)  # passes parameter to the constructor
+
+# Example 9 :
+# req: emp
+#     constructor: eid, ename, esalary
+#     display(): print eid, ename & esal
+
+
+class Emp:
+    def __init__(self, eid, ename, esal):
+        self.eid = eid
+        self.ename = ename
+        self.esal = esal
+
+    def display(self):
+        print(self.eid, self.ename, self.esal)
+
+
+empl = Emp(125, "mosh", 350000)
+empl.display()
+
+# Example 10
