@@ -143,4 +143,3 @@ class Emp:
 empl = Emp(125, "mosh", 350000)
 empl.display()
 
-# Example 10
